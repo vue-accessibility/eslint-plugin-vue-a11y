@@ -10,18 +10,22 @@
     "a11y",
     "accessibility"
   ],
-  "author": "maranran",
+  "authors": [
+    "maranran",
+    "marcus-herrmann",
+    "BasitAli"
+  ],
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha \"tests/lib/**/*.js\" --reporter dot",
     "lint": "eslint ."
   },
-  "homepage": "https://github.com/maranran/eslint-plugin-vue-a11y#readme",
+  "homepage": "https://github.com/vue-accessibility/eslint-plugin-vue-a11y#readme",
   "files": [
     "lib"
   ],
   "bugs": {
-    "url": "https://github.com/maranran/eslint-plugin-vue-a11y/issues"
+    "url": "https://github.com/vue-accessibility/eslint-plugin-vue-a11y/issues"
   },
   "engines": {
     "node": ">=4"
